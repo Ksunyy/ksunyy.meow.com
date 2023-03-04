@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+body{
+    font-family: Montserrat, serif;
+    background: linear-gradient(180deg, #E6D7D7 0%, #A9877A 100%);
+}
+
+p {
+    color: #84685d;
+}
+
+.nav-item>.nav-link {
+    color: rgb(232, 193, 166);
+}
+
+.navbar-collapse .navbar-nav .nav-link.active{
+    color: rgb(175, 135, 104);
+}
+.navbar-brand img{
+    width: 40px;
+}
+
+.navbar-toggler{
+    background-color: rgb(193, 172, 160);
+}
+
+.side-bar{
+    color: #84685d;
+    background:  #E6D7D7;
+}
+
+.card{
+    color: rgb(175, 135, 104);
+    background: linear-gradient(35deg, #E6D7D7 0%, #A9877A 100%);
+
+}
+
+.card {
+    background-color: #84685d;
+}
+.card a{
+    text-decoration: none;
+    color: #84685d;
+}
+
+.slide-text,
+.footer-text {
+    color: #84685d;
+    margin: auto auto;
+
+}
+
+
+.paw{
+    animation: paws 2s linear 0s infinite normal forwards;
+}
+
+
+@keyframes paws {
+	0% {
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+	}
+}
+
+@media (max-width: 755px){
+    .carousel-indicators{
+        display: none
+    }
+}
+
+.media-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer {
+    background: #E6D7D7;
+}
+.btn-outline-light{
+    background: #E6D7D7;
+    color: #84685d;
+
+}
